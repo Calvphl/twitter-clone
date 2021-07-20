@@ -14,7 +14,7 @@ function Widgets() {
                 <h2>What's happening</h2>
                 <TwitterTweetEmbed tweetId={"1402366159635156994"}/>
                 <TwitterTimelineEmbed sourceType="profile" screenName="calvinputera_" options={{height: 400}}/>
-                <TwitterShareButton url={"https://twitter.com/calvinputera_"} options={{text:"LET'S GOOOO", via: "calvinputera_"}}/>
+                <TwitterShareButton url={"https://www.instagram.com/calvinputera_/"} options={{text:"TESTING!! twitter embed", via: "calvinputera_"}}/>
             </div>
         </div>
     )

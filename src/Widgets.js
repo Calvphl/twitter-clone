@@ -12,9 +12,9 @@ function Widgets() {
             </div>
             <div className="widgets__widgetContainer">
                 <h2>What's happening</h2>
-                <TwitterTweetEmbed tweetId={"1402366159635156994"}/>
-                <TwitterTimelineEmbed sourceType="profile" screenName="calvinputera_" options={{height: 400}}/>
-                <TwitterShareButton url={"https://www.instagram.com/calvinputera_/"} options={{text:"TESTING!! twitter embed", via: "calvinputera_"}}/>
+                <TwitterTweetEmbed tweetId={"1412808256829878279"}/>
+                <TwitterTimelineEmbed sourceType="profile" screenName="veavelinave" options={{height: 400}}/>
+                <TwitterShareButton url={"https://www.instagram.com/avlnlaras/"} options={{text:"TESTING!! twitter embed", via: "veavelinave"}}/>
             </div>
         </div>
     )

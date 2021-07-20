@@ -10,12 +10,12 @@ function TweetBox() {
         e.preventDefault()
 
         db.collection('posts').add({
-            displayName: "Jajang",
-            username: "jajang88",
-            verified: true,
+            displayName: "Avelina",
+            username: "veavelinave",
+            verified: false,
             text: tweetMessage,
             image: tweetImage,
-            avatar: "https://avatars.githubusercontent.com/u/50194060?v=4"
+            avatar: "https://pbs.twimg.com/profile_images/1147104746953515008/q7BtjB7W_400x400.jpg"
         })
 
         setTweetMessage("")
@@ -26,7 +26,7 @@ function TweetBox() {
         <div className="tweetBox">
             <form action="">
                 <div className="tweetBox__input">
-                    <Avatar src="https://avatars.githubusercontent.com/u/50194060?v=4"/>
+                    <Avatar src="https://pbs.twimg.com/profile_images/1147104746953515008/q7BtjB7W_400x400.jpg"/>
                     <input onChange={(e) => setTweetMessage(e.target.value)} value={tweetMessage} placeholder="What's happening?" type="text" />
                 </div>
                 <input onChange={(e) => setTweetImage(e.target.value)} value={tweetImage} className="tweetBox__imageInput" placeholder="Enter image URL" type="text" />
